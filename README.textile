@@ -1,0 +1,39 @@
+h1. jquery-yahoo-meme
+
+A JQuery plugin to consume "Yahoo! Meme's":http://meme.yahoo.com webservices on "YQL":http://developer.yahoo.com/yql.
+
+h2. How to use?
+
+h3. Get popular posts:
+
+<pre><code>  $.meme.popular({count:10});</code></pre>
+
+h3. Search posts:
+
+<pre><code>  $.meme.search({query:'meme rocks'});</code></pre>
+
+h2. How to report bugs
+
+Go to the "Issues":http://github.com/guilhermechapiewski/jquery-yahoo-meme/issues section and please provide as much detail as you can.
+
+h2. How to contribute
+
+Contributors are very welcome :) Go ahead and "fork the project":http://github.com/guilhermechapiewski/jquery-yahoo-meme/fork here on Github and "request pull" when you are done.
+
+*Please* include unit tests! :)
+
+h2. Mailing list and further questions
+
+If you want to contribute and still have some questions or if you are still having trouble using *jquery-yahoo-meme* plugin, join the "*meme-dev* group at Yahoo! Groups":http://tech.groups.yahoo.com/group/meme-dev/ where you will find other developers that use Yahoo! Meme and APIs for many programming languages.
+
+If you have further questions, just drop me a message at *guilherme dot chapiewski at gmail dot com*, on Meme ("/gchapiewski":http://meme.yahoo.com/gchapiewski/) or on Twitter ("@gchapiewski":http://twitter.com/gchapiewski).
+
+h2. What is Meme?
+
+Meme ("http://meme.yahoo.com":http://meme.yahoo.com) is a _light-blogging_ tool - which means that it is not as small and simple as "Twitter":http://twitter.com (micro-blogging) and not as big and full-featured as "Wordpress":http://wordpress.org (standard blogging) - created by "Yahoo!":http://yahoo.com in Brazil.
+
+For more information about Yahoo! Meme please go to:
+  * "Meme's Meme":http://meme.yahoo.com/meme/ (Meme news and general community updates)
+  * "Meme API's Meme":http://meme.yahoo.com/api/ (Meme news about API improvements)
+  * "About Yahoo! Meme":http://meme.yahoo.com/help/about/
+  * "Meme API Guide":http://developer.yahoo.com/meme/guide/

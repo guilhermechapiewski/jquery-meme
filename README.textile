@@ -26,8 +26,6 @@ h2. Mailing list and further questions
 
 If you want to contribute and still have some questions or if you are still having trouble using *jquery-yahoo-meme* plugin, join the "*meme-dev* group at Yahoo! Groups":http://tech.groups.yahoo.com/group/meme-dev/ where you will find other developers that use Yahoo! Meme and APIs for many programming languages.
 
-If you have further questions, just drop me a message at *guilherme dot chapiewski at gmail dot com*, on Meme ("/gchapiewski":http://meme.yahoo.com/gchapiewski/) or on Twitter ("@gchapiewski":http://twitter.com/gchapiewski).
-
 h2. What is Meme?
 
 Meme ("http://meme.yahoo.com":http://meme.yahoo.com) is a _light-blogging_ tool - which means that it is not as small and simple as "Twitter":http://twitter.com (micro-blogging) and not as big and full-featured as "Wordpress":http://wordpress.org (standard blogging) - created by "Yahoo!":http://yahoo.com in Brazil.

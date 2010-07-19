@@ -4,13 +4,22 @@ A JQuery plugin to consume "Yahoo! Meme's":http://meme.yahoo.com webservices on 
 
 h2. How to use?
 
-h3. Get popular posts:
-
-<pre><code>  $.meme.popular({count:10});</code></pre>
-
 h3. Search posts:
 
-<pre><code>  $.meme.search({query:'meme rocks'});</code></pre>
+<pre><code>$.meme.search({query:'meme rocks'}, function(data) {
+  // do your stuff...
+  console.log(data.query.count); //3
+  $(data.query.results.post).each(function(index) {
+      console.log($(this)[0].caption);
+      // ...
+  });
+});</code></pre>
+
+h3. Get popular posts:
+
+<pre><code>$.meme.popular({count:10}, function(data) {
+  // do your stuff...
+});</code></pre>
 
 h2. How to report bugs
 

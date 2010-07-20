@@ -1,4 +1,4 @@
-h1. jquery-yahoo-meme
+h1. jQuery Meme
 
 A JQuery plugin to consume "Yahoo! Meme's":http://meme.yahoo.com webservices on "YQL":http://developer.yahoo.com/yql.
 
@@ -23,17 +23,17 @@ h3. Get popular posts:
 
 h2. How to report bugs
 
-Go to the "Issues":http://github.com/guilhermechapiewski/jquery-yahoo-meme/issues section and please provide as much detail as you can.
+Go to the "Issues":http://github.com/guilhermechapiewski/jquery-meme/issues section and please provide as much detail as you can.
 
 h2. How to contribute
 
-Contributors are very welcome :) Go ahead and "fork the project":http://github.com/guilhermechapiewski/jquery-yahoo-meme/fork here on Github and "request pull" when you are done.
+Contributors are very welcome :) Go ahead and "fork the project":http://github.com/guilhermechapiewski/jquery-meme/fork here on Github and "request pull" when you are done.
 
 *Please* include unit tests! :)
 
 h2. Mailing list and further questions
 
-If you want to contribute and still have some questions or if you are still having trouble using *jquery-yahoo-meme* plugin, join the "*meme-dev* group at Yahoo! Groups":http://tech.groups.yahoo.com/group/meme-dev/ where you will find other developers that use Yahoo! Meme and APIs for many programming languages.
+If you want to contribute and still have some questions or if you are still having trouble using *jquery-meme* plugin, join the "*meme-dev* group at Yahoo! Groups":http://tech.groups.yahoo.com/group/meme-dev/ where you will find other developers that use Yahoo! Meme and APIs for many programming languages.
 
 h2. What is Meme?
 

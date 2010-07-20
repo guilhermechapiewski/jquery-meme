@@ -6,7 +6,7 @@ h2. How to use?
 
 h3. Search posts:
 
-<pre><code>$.meme.search({query:'meme rocks'}, function(data) {
+<pre><code>$.meme.search({query:'meme rocks',count:3}, function(data) {
   // do your stuff...
   console.log(data.query.count); //3
   $(data.query.results.post).each(function(index) {

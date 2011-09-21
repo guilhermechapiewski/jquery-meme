@@ -1,6 +1,10 @@
 (function($) {
     $.extend({
         meme: {
+            posts: function(params, callback){
+                var query = 'SELECT * FROM meme.posts(' + params.count + ') WHERE owner_guid= "' + params.owner_guid + '"';
+                this.query_yql(query, callback);
+            },
             search: function(params, callback) {
                 var query = 'SELECT * FROM meme.search(' + params.count + ') WHERE query="' + params.query + '"';
                 this.query_yql(query, callback);
